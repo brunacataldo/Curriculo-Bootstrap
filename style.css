@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+header, footer {
+    padding: 10px 0;
+    color: rgb(255, 127, 127);
+    background-color: rgb(255, 0, 0);
+}
+
+nav, aside {
+    padding: 20px;
+    text-align: center;
+}
+
+h2, h4, p, ul {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li{
+    text-align: left;
+}
+
+main {
+    padding: 20px;
+}
+
+.personal-info {
+    text-align: left;
+  }
+
+.about p {
+    font-size: 18px;
+}
+
+div.info {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+img.avatar {
+    width: 150px;
+    height: 180px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+div.personal-info {
+    margin-left: 1px;
+    text-align: center;
+}
+
+aside a{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    padding: 8px;
+    height: 10%;
+    text-decoration: none;
+}
+
+img.ico {
+    width: 35px;
+    filter: grayscale(1);
+    transition: 0.5s;
+    margin: 5px;
+}
+
+img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav h4, nav ul, aside h4 {
+    text-align: center;
+}
+
+main, main h2, main h3, main h4 {
+    text-align: left;
+}
+
+.about p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.date {
+    font-size: 14px; 
+    color: #888; 
+}
+
+.personal-info h5, p{
+    text-align: left !important; 
+    text-align: justify!important;
+    margin-left: 1px; 
+}
+ 
+.idiomas p{
+    text-align: center !important;
+}
+
+.dados_pessoais h5{
+    text-align: center !important;
+}
+
+.info-footer p {
+    margin-top: 5px;
+    text-align: center !important;
+    color: rgb(190, 187, 187);
+}
